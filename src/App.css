@@ -1,0 +1,75 @@
+body{
+  background: rgb(40, 40, 43);
+}
+h1{
+  color:white;
+  justify-content: center;
+  text-align:center;
+  font-family:cursive;
+  margin-top:40px;
+  font-size: 60px;
+}
+h2{
+  color:white;
+  justify-content: center;
+  text-align:center;
+  font-family:cursive;
+  margin-top:70px;
+}
+.contenedor {
+  text-align: center;
+  width:550px;
+  margin-left: 500px;
+  margin-top:30px;
+}
+.header{
+  height: 80px;
+  background:palevioletred;
+  border-radius: 10px;
+  border:2px solid whitesmoke;
+}
+.bodyHeader{
+  background:palevioletred;
+  border-radius: 10px;
+  border:2px solid whitesmoke;
+}
+input{
+  margin-top:20px;
+  width: 300px;
+  height:30px;
+  border:0;
+  border-radius: 5px;
+}
+.button{
+  width:70px;
+  height:30px;
+  border:1px solid palevioletred;
+  border-radius: 5px;
+  background:white;
+  margin-left: 20px;
+}
+.button2{
+  width:70px;
+  height:30px;
+  border:1px solid palevioletred;
+  border-radius: 5px;
+  background:white;
+}
+
+.todo__text {
+  color:whitesmoke;
+  margin-top: 20px;
+  font-size:15px;
+}
+.todo__state{
+  width:20px;
+  height:15px;
+  float:right;
+  margin-right: 10px;
+}
+.todo-list{
+  color: white;
+  padding:10px;
+  margin-top:-5px;
+}
+
