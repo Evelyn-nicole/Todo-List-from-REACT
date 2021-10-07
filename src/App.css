@@ -19,7 +19,8 @@ h2{
 .contenedor {
   text-align: center;
   width:550px;
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top:30px;
 }
 .header{
@@ -41,7 +42,7 @@ input{
   border-radius: 5px;
 }
 .button{
-  width:70px;
+  width:80px;
   height:30px;
   border:1px solid palevioletred;
   border-radius: 5px;
@@ -49,7 +50,7 @@ input{
   margin-left: 20px;
 }
 .button2{
-  width:70px;
+  width:90px;
   height:30px;
   border:1px solid palevioletred;
   border-radius: 5px;
@@ -72,4 +73,15 @@ input{
   padding:10px;
   margin-top:-5px;
 }
-
+.numeroItem{
+  color:white;
+  margin-top: 20px;
+}
+.button3{
+  width:150px;
+  height:30px;
+  border:1px solid white;
+  border-radius: 5px;
+  background:rgb(196, 27, 83);
+  color:white;
+}
