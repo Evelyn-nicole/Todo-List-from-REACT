@@ -2,8 +2,8 @@ import React, { Fragment, useState} from "react";
 
 const TaskList = props => {
 	const { list, setList } = props;
-	const [description, setDescription] = useState('');
-	const [descriptionFetch, setDescriptionFetch] = useState([]);
+	const [setDescription] = useState('');
+	const [setDescriptionFetch] = useState([]);
 
 	const onChangeStatus = e => {
 		const { name, checked } = e.target;
@@ -19,6 +19,10 @@ const TaskList = props => {
 			onChange,
 			data: { id, description, done }
 		} = props;
+		
+		
+		
+		
 		return (
 			<Fragment>
 			  <label className="todo new-item">
@@ -67,7 +71,7 @@ const TaskList = props => {
 			{list.length ? (
 				<p>
 					<button className="button2" onClick={onClickRemoveItem}>
-						Delete item
+						Eliminar 
 					</button>
 			    </p>
 			) : null}

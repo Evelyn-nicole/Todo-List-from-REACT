@@ -1,38 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 body{
-  background: rgb(40, 40, 43);
-}
+  background-image: url(
+    https://fondosmil.com/fondo/10685.jpg);
+    background-size:cover;
+  }
+  /* titulo */
 h1{
   color:white;
   justify-content: center;
   text-align:center;
-  font-family:cursive;
+ 
   margin-top:40px;
-  font-size: 60px;
+  font-size: 95px;
+  font-family: 'Estonia', cursive;
 }
+/* subtitulo */
 h2{
   color:white;
-  justify-content: center;
   text-align:center;
   font-family:cursive;
   margin-top:70px;
+  font-size: 60px;
+  font-family: 'Estonia', cursive;
 }
+/* contenedor de la carta */
+.bodyCard{
+  background: rgba(0, 0, 0, 0.445);
+  width: 830px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.footerEnd{
+  color:white;
+  text-align:center;
+  font-family:cursive;
+  margin-bottom:20px;
+}
+/* carta todo-list */
 .contenedor {
   text-align: center;
   width:550px;
   margin-left: auto;
   margin-right: auto;
   margin-top:30px;
+  margin-bottom: 30px;
+  
 }
 .header{
   height: 80px;
-  background:palevioletred;
+  background:rgba(17, 1, 11, 0.61);
   border-radius: 10px;
-  border:2px solid whitesmoke;
+  box-shadow: 0 0 12px 2px rgba(243, 239, 239, 0.377);
+  border: 1px solid black;
 }
 .bodyHeader{
-  background:palevioletred;
+  background:rgba(17, 1, 11, 0.61);
   border-radius: 10px;
-  border:2px solid whitesmoke;
+  box-shadow: 0 0 12px 2px rgba(243, 239, 239, 0.377);
+  border: 1px solid black;
 }
 input{
   margin-top:20px;
